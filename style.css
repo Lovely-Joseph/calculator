@@ -1,0 +1,61 @@
+.main{
+	width: 35%;
+	margin: auto;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: black;
+}
+.main input{
+	width: 90%;
+	padding: 20px;
+	border: 1px solid black;
+	font-size: 20px;
+}
+.frstdiv{
+	/*display: flex;
+	justify-content: space-between;*/
+	margin-top: 15px;
+}
+.numbers{
+	display: flex;
+	justify-content: space-between;
+}
+.numbers input{
+	width: 100px;
+	height: 50px;
+}
+.numbers button{
+	/*padding: 10px;*/
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	/*padding: 10px 10px;*/
+}
+.numbers button:hover{
+	cursor: pointer;
+}
+#numac{
+	background-color: red;
+}
+#numsym{
+	background-color: #8CAAFA  ;
+}
+#num{
+	background-color: #B7BBC6 ;
+}
+#equal{
+	background-color: #71E5A1 ;
+}
+#clr{
+	background-color: #F9BE69 ;
+}
+@media screen and (max-width: 720px){
+	.main{
+	width: 90%;
+	/*margin: auto;*/
+	padding: 10px;
+	border: 2px solid black;
+}
+}
